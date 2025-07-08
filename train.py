@@ -22,7 +22,7 @@ f1 = f1_score(y_test, y_pred, average="weighted")
 
 # Write report
 with open("metrics.txt", "w") as f:
-    f.write("### 📊 Model Metrics Report\n")
+    f.write("## 📊 Model Metrics Report\n")
     f.write(f"* Accuracy: {accuracy:.4f}\n")
     f.write(f"* F1 Score: {f1:.4f}\n")
     f.write("![cml](https://cml.dev/watermark.png)\n")
